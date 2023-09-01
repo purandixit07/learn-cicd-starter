@@ -30,9 +30,6 @@ jobs:
       - name: Run migrations
         run: ./scripts/migrateup.sh
 
-      - name: Run migrations
-        run: ./scripts/migrateup.sh
-
       - id: 'auth'
         uses: 'google-github-actions/auth@v1'
         with:
